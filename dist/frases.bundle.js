@@ -1,0 +1,1 @@
+(()=>{var e=localStorage.getItem("joke");const t=JSON.parse(e),o=document.createElement("p");o.textContent=t.value,document.body.appendChild(o),console.log(t)})();
